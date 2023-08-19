@@ -1,7 +1,6 @@
 ---
 - name: installing packages
-  hosts: localhost
-  connection: local
+  hosts: webserver
   become: true
   gather_facts: no
   tasks:
